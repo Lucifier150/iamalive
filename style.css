@@ -472,9 +472,7 @@ p {
 
 
 @media (max-width:900px) {
-    .content ul,ol li{
-        font-size: 12px;
-    }
+
     .banner-terms-heading h1{
         font-size: 35px;
     }
@@ -500,6 +498,9 @@ p {
 }
 
 @media (max-width:600px) {
+    .content ul,ol li{
+        font-size: 12px;
+    }
     .footer-bg {
         padding-bottom: 1rem;
     }
