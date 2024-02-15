@@ -472,6 +472,12 @@ p {
 
 
 @media (max-width:900px) {
+    .content ul,ol li{
+        font-size: 14px;
+    }
+    .banner-terms-heading h1{
+        font-size: 35px;
+    }
     .hand-bg {
         background-image: none;
     }
