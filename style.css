@@ -322,7 +322,9 @@ p {
     right: -24%;
     top: -160px;
 }
-
+::selection{
+    background-color: #C3E0DD;
+}
 .blue__dot__bottom {
     position: relative;
 }
@@ -372,7 +374,49 @@ p {
 .navbar-toggler {
     border: none;
 }
+.banner-terms{
+    width: 100%;
+    /*height: 50vh;*/
+    display: flex;
+    justify-content: start;
+    align-content: start;
+}
+.banner-terms-heading{
+    border-bottom: 1px solid #d4d4d4;
+    /*padding-bottom: 1rem;*/
+    margin-bottom: 1rem;
+}
+.banner-terms-heading h1{
+    font-size: 65px;
+    text-align: start;
+}
+.text-content p{
+    color: #212121;
+    font-weight: 400;
+    font-size: 16px;
+}
+.emergency{
+ font-weight: 500;
+}
+.extra-bold{
+    font-weight: 600;
+}
+.content p{
+    text-align: justify;
+}
+.content ul li{
+    list-style: circle;
+    padding-bottom: .5rem;
+    text-align: justify;
 
+}
+.content ol {
+    list-style: upper-roman;
+    text-align: justify;
+}
+.content ol li{
+    padding-bottom: .5rem;
+}
 @media (max-width:1500px) {
     .socail-icons {
         position: unset;
