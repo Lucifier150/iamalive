@@ -473,7 +473,7 @@ p {
 
 @media (max-width:900px) {
     .content ul,ol li{
-        font-size: 14px;
+        font-size: 12px;
     }
     .banner-terms-heading h1{
         font-size: 35px;
