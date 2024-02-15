@@ -5,9 +5,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+body{
     font-family: "Poppins", sans-serif;
 }
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -72,7 +74,7 @@ h4 {
     color: #282828;
     font-size: 35px;
     font-weight: 700;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif !important;
 }
 
 p {
@@ -246,7 +248,9 @@ p {
     background-color: #262626;
     padding: 3rem 0;
 }
-
+.footer-bg-2{
+    background-color: #1c1c1c;
+}
 .icon-w {
     width: 25px;
 }
@@ -389,6 +393,7 @@ p {
 .banner-terms-heading h1{
     font-size: 65px;
     text-align: start;
+
 }
 .text-content p{
     color: #212121;
@@ -475,6 +480,8 @@ p {
 
     .banner-terms-heading h1{
         font-size: 35px;
+        font-family: "Inter", sans-serif !important;
+
     }
     .hand-bg {
         background-image: none;
@@ -500,6 +507,7 @@ p {
 @media (max-width:600px) {
     .account-heading h4{
         text-align: center;
+        font-family: "Inter", sans-serif !important;
     }
     .content p{
         text-align: center;
