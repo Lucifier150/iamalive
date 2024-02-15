@@ -498,6 +498,12 @@ p {
 }
 
 @media (max-width:600px) {
+    .account-heading h4{
+        text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
     .content ul,ol li{
         font-size: 12px;
     }
