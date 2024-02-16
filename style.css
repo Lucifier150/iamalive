@@ -98,7 +98,29 @@ p {
     border-top-right-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
     border-radius: 0% 100% 29% 71% / 100% 0% 100% 0%;
-    transition: .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.custom-btn-header::before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 164px;
+    height: 53px;
+    background-color: #282828;
+    top: 0;
+    left: -15rem;
+    transition: left 0.5s; /* Added transition for left */
+}
+
+.custom-btn-header:hover::before {
+    left: 0; /* Slide the pseudo-element in from the left on hover */
+}
+
+.custom-btn-header:hover {
+    color: #FFF; /* Ensure text color remains white on hover */
 }
 
 .text-white {
@@ -114,10 +136,10 @@ p {
 
 }
 
-.custom-btn-header:hover {
-    background-color: #282828;
+/*.custom-btn-header:hover {*/
+/*    background-color: #282828;*/
 
-}
+/*}*/
 
 .custom-btn-header img {
     width: 20px;
@@ -436,6 +458,9 @@ p {
 }
 
 @media (max-width:1366px) {
+    .fs-13{
+        font-size: 13px;
+    }
     .blue__dot::before {
 
         right: -25.2%;
